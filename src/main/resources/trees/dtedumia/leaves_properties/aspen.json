@@ -1,0 +1,10 @@
+{
+  "primitive_leaves": "edumia:aspen_leaves",
+  "cell_kit": "dynamictrees:conifer",
+  "model_overrides": {
+    "leaves": "edumia:block/aspen_leaves"
+  },
+  "texture_overrides": {
+    "leaves": "edumia:block/aspen_leaves"
+  }
+}

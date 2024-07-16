@@ -1,0 +1,48 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="dtedumia"
+version="${file.jarVersion}"
+displayName="Dynamic Trees for Edumia"
+credits=""
+authors="DJS, Max Hyper"
+description='''
+Adds Dynamic Trees Compatibility with Edumia.
+'''
+
+[[dependencies.dtedumia]] #optional
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.dtedumia]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.dtedumia]]
+modId="dynamictrees"
+mandatory=true
+versionRange="[1.3.0-BETA4,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.dtedumia]]
+modId="dynamictreesplus"
+mandatory=false
+versionRange="[1.2.0-BETA1,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.dtedumia]]
+modId="edumia"
+mandatory=true
+versionRange="[1.4.0-1.20.1]"
+ordering="AFTER"
+side="BOTH"
